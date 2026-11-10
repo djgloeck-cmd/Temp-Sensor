@@ -1,2 +1,2 @@
-# Temp-Sensor
-Temp Sensor Project for Hack clubs 8 pin Grant
+# Temp-Monitor
+Temp Monitor Project for Hack clubs 8 pin Grant
