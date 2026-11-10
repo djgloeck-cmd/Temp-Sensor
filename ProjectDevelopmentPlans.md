@@ -1,4 +1,4 @@
-Project: Mini Oled Temperature Monitor
+Project: MiniTemperature Monitor
 Design Software:KiCad
 Microcontrolled selected: ATtiny412
 
@@ -13,7 +13,7 @@ The primary goals are:
 Design an original PCB using KiCad.
 Use an 8-pin microcontroller as the main processor.
 Measure ambient temperature using a digital temperature sensor.
-Display temperature readings on a small OLED screen.
+Display temperature readings on a small Epaper screen.
 Track minimum and maximum recorded temperatures.
 Include a physical button to reset the recorded minimum and maximum.
 Write firmware to control the device.
@@ -25,17 +25,18 @@ Temperature Monitoring using a sensor to pull current tempeature data and store 
 Oled Display to display the current temp and high and low since last reset
 Physical Push button for user to press to reset the high and low
 Potential battery power option for travel use
-Compact enclosure 
+Compact enclosure
+Push button to wake screen to save battery usage 
 
-4. Planned Hardware
+5. Planned Hardware
 The following components are being considered. Final selections will depend on electrical compatibility, availability, physical dimensions, and the project budget.
 Microcontroller: ATtiny412
-OLED Screen: SD1306 OLED
-Digital Temp Sensor: In progress
+OLED Screen: 	Pervasive Displays E2206KS0E1, 2.06"
+Digital Temp Sensor: TMP102
 Push Button: In progress
 Battery holder: In progress
 
-5. Roadmap
+6. Roadmap
 Phase 1 — Research and Planning
 Phase 2 — Schematic Design
 Phase 3 — PCB Design
@@ -43,7 +44,7 @@ Phase 4 — Firmware Development
 Phase 5 — Manufacturing and Assembly
 Phase 6 — Enclosure and Final Testing 
 
-6. Testing Plan
+7. Testing Plan
 The completed device will be evaluated using the following tests:
 Verify that the device powers on reliably.
 Verify that the OLED displays readable temperature values.
@@ -53,7 +54,7 @@ Verify that the reset button clears the recorded range.
 Verify that readings continue updating over an extended period.
 Check that the enclosure fits and protects the assembled PCB.
 
-7. The completed project will consist of:
+8. The completed project will consist of:
 An original two-layer PCB.
 A programmed 8-pin microcontroller.
 A functioning temperature sensor.
